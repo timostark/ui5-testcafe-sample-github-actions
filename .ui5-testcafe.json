@@ -1,0 +1,4 @@
+{
+    "firstSelectorTimeout": 60000,
+    "traceSelectorOnFailure": true
+}

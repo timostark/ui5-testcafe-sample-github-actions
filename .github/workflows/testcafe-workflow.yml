@@ -1,0 +1,14 @@
+name: End-to-End Tests
+on: [push]
+jobs:
+  test:
+    name: Run TestCafe Tests
+    runs-on: windows-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '10'
+      - run: npm i
+      - run: npm run e2e
