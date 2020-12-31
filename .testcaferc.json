@@ -12,6 +12,10 @@
     "reporter": [
         {
             "name": "spec"
+        },
+        {
+            "name": "xunit",
+            "output": "reports/report.xml"
         }
     ]
 }

@@ -65,7 +65,7 @@ class ProductDemo {
 
     readonly submitView = {
         submitButton: ui5().id('checkoutView--submitOrder'),
-        confirm: ui5().button().property('text', 'Ja').parentElementName('sap.m.Dialog')
+        confirm: ui5().button().property('text', 'Yes').parentElementName('sap.m.Dialog')
     }
 
     readonly completedView = {
