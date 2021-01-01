@@ -43,6 +43,7 @@ class ProductDemo {
         nextStepButton: ui5().id('checkoutView--paymentTypeStep-nextButton')
     }
 
+
     readonly creditCartView = {
         holder: ui5().id('checkoutView--creditCardHolderName'),
         number: ui5().id('checkoutView--creditCardNumber'),
