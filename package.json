@@ -1,7 +1,7 @@
 {
     "name": "ui5-testcafe-samples",
     "version": "1.0.0",
-    "description": "Examples for Running testcafe with ui5",
+    "description": "Examples for Running testcafe",
     "main": "index.js",
     "scripts": {
         "e2e": "testcafe",
